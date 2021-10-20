@@ -5,6 +5,8 @@ body{
 p{
 	color: white;
 	font-family: "Arial"
+	
+	outline-color: red;
 	outline-style: dotted;
 }
 
