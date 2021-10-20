@@ -1,0 +1,118 @@
+body{
+	 background-image: url('dark_wood.png');
+}
+
+p{
+	color: white;
+	font-family: "Arial"
+	outline-style: dotted;
+}
+
+h3{
+	
+	font-size: 40px;
+	
+	margin-bottom: 0px;
+}
+
+li{
+
+}
+
+ul{
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#Header{
+	width: 500px;
+
+	background-color: #8E41D5;
+}
+
+#Header h1{
+	 font-size: 60px; 
+	  
+	 font-weight: bold;
+}
+
+#LeftNav{
+
+	
+	width: 400px;
+	
+	float: left; 
+	
+	padding-bottom: 8px;
+	background-color: #8E41D5;
+}
+
+#LeftNav img{ /*You have hover over the image for the added styles to happen*/
+	opacity: 0.5;
+	transition: width 2s;
+}
+#LeftNav img:hover{
+	opacity: 1;
+	width: 300px;
+}
+
+#LeftNav ul{
+	
+	
+}
+
+#LeftNav h3{
+	
+	font-size: 40px;
+	
+	margin-bottom: 0px;
+	
+}
+
+a{ 
+	color: white; 
+	font-weight: bold; 
+	font-size: 24px;
+}
+
+#Content{
+	width: 700px;
+	
+	padding: 15px;
+	background-color: #8E41D5;
+}
+#Content img{
+	transform: rotate(20deg);
+	position: relative;
+	animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+#Footer{
+	border:solid 8px black;
+	text-align: center;
+
+	background-color: #8E41D5;
+} 
+
+
+.boxStyle {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	border:solid 8px black;
+	text-align: center;
+}
+
+.f_c{
+	color: #FFBC00;
+	font-family: "Passion One";
+}
