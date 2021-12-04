@@ -1,0 +1,76 @@
+body{
+	 background-image: url('backg.png');
+}
+
+p{
+	color: White;
+	font-family: Garamond, serif;
+	
+}
+
+h3{
+	
+	font-size: 40px;
+	color: #ffe947;
+	margin-bottom: 0px;
+	font-family: Tahoma, sans-serif;
+}
+
+hr{
+	height:15px;
+	border-width:0;
+	color:black;
+	background-color:#ffe947;
+}
+li{
+	
+}
+
+ul{
+	
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+#Header{
+	width: auto;
+
+	background-color: #ffe947;
+	margin: 0 auto;
+    text-align: center;
+}
+
+h1{
+	 font-size: 30px; 
+	 color: Red;
+	 font-weight: bold;
+	 font-family: Tahoma, sans-serif;
+}
+span{
+	margin-left:110em;
+}
+
+#Raid{
+	
+}
+
+
+#Trials{
+	
+}
+
+#GM_nightfalls{
+	
+}
+
+.boxStyle {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
